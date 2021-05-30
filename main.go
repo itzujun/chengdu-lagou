@@ -10,7 +10,7 @@ func main(){
 			"message": "登陆成功",
 		})
 	})
-	r.Run() // listen and serve on 0.0.0.0:8080
+	r.Run(":8000") // listen and serve on 0.0.0.0:8080
 }
 
 
